@@ -1,0 +1,146 @@
+.gradient-background {
+    background: linear-gradient(300deg,#000935, #1B1A55, #010101, #010339);  
+    background: linear-gradient(300deg,#000935, #1B1A55, #010101, rgb(164, 18, 18));  
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 50% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .background{
+    background-color: whitesmoke;
+  }
+
+  #about-me{
+    background-color: whitesmoke;
+  }
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+}
+
+#title{
+    background-color: #0E46A3;
+    height: 100vh;
+}
+
+.title-text{
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span{
+    font-family: "DM Serif Display", serif; 
+    font-weight: 400;
+    font-style: normal;
+    color: #d5edf9;
+}
+
+.sub-text{
+    margin-top: 12px;
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #d5edf9;
+    font-size: 13px;
+    letter-spacing: 7.5px;
+}
+
+.span2{
+    color:rgb(247, 24, 24)
+}
+
+.profile-pic{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 9, 53, 0.35);
+}
+
+.about-me{
+    font-family: "DM Serif Display", serif;
+    color: #000935 !important;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-size: 250%;
+}
+
+#quick-read{
+    font-size: 210%;
+}
+
+.lead{
+    font-family: "Source Serif 4", serif;
+    color: #000935a9 !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.custom{
+    background-image: linear-gradient(300deg,#000935, #1B1A55, #010101, #010339);
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: whitesmoke;
+    box-shadow: 0 0 5px rgba(0, 9, 53, 0.35);
+    border: none;
+    border-radius:250px;
+}
+
+.custom:hover{
+    color: rgb(204, 203, 203);
+}
+
+.bottom-container1{
+    display: flex;
+    height: 100px;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container2{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.copyright{
+    color: whitesmoke;
+    font-size: 13px;
+   
+}
+
+.anchor:hover{
+    color: red;
+}
+
+.sample-poem{
+    background-color: whitesmoke;
+}
+
+
+
